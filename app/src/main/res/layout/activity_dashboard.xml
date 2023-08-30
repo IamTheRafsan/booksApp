@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal"
+            android:layout_margin="8dp"
+            android:background="@drawable/heading_background"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:text="@string/quote"
+                android:padding="30dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/book1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:background="@drawable/book_box"
+            android:layout_margin="8dp"
+            android:padding="10dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/atomic"
+                    android:backgroundTint="@color/black"
+                />
+
+            </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/b1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/buttonbackground"
+                        android:text="Book 1: Atomic Habits"
+                        android:textSize="12sp"
+                        android:textColor="@color/white"
+
+                        >
+
+                    </androidx.appcompat.widget.AppCompatButton>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Author: James Clear \n\nPages: 285"
+                        android:layout_margin="10dp"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        />
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/book2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal"
+                android:background="@drawable/book_box"
+                android:layout_margin="8dp"
+                android:padding="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <ImageView
+                        android:layout_width="110dp"
+                        android:layout_height="130dp"
+                        android:src="@drawable/habits"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/b2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/buttonbackground"
+                        android:text="Book 2: The 7 Habits of Highly Effective People"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        android:padding="3dp"
+                        >
+                    </androidx.appcompat.widget.AppCompatButton>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Author: Stephen R.Covey \n\nPages: 172"
+                        android:layout_margin="10dp"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/book3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:background="@drawable/book_box"
+            android:layout_margin="8dp"
+            android:padding="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/why"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/b3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonbackground"
+                    android:text="Book 3: Start With Why"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:padding="3dp"
+                    >
+                </androidx.appcompat.widget.AppCompatButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Author: Simon Sinek \n\nPages: 271"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/book4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:background="@drawable/book_box"
+            android:layout_margin="8dp"
+            android:padding="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/subtle"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/b4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonbackground"
+                    android:text="Book 4: The Subtle Art Of Not Giving A"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:padding="3dp"
+                    >
+                </androidx.appcompat.widget.AppCompatButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Author: Mark Manson \n\nPages: 104"
+                    android:layout_margin="10dp"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/book5"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:background="@drawable/book_box"
+            android:layout_margin="8dp"
+            android:padding="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/win_friends"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/b5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonbackground"
+                    android:text="Book 5: How To Win Friends And Influence People"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:padding="3dp"
+                    >
+                </androidx.appcompat.widget.AppCompatButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Author: Dale Carnegie \n\nPages: 215"
+                    android:layout_margin="10dp"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/book6"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:background="@drawable/book_box"
+            android:layout_margin="8dp"
+            android:padding="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/richdad"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/b6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonbackground"
+                    android:text="Book 6: Rich Dad Poor Dad"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:padding="3dp"
+                    >
+                </androidx.appcompat.widget.AppCompatButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Author: Robert T.Kiyosaki  \n\nPages: 220"
+                    android:layout_margin="10dp"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/book7"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:background="@drawable/book_box"
+            android:layout_margin="8dp"
+            android:padding="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/think" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/b7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonbackground"
+                    android:text="Book 7: Think And Grow Rich"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:padding="3dp"
+                    >
+                </androidx.appcompat.widget.AppCompatButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Author: Napoleon Hill  \n\nPages: 288"
+                    android:textSize="12sp"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/book8"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:background="@drawable/book_box"
+            android:layout_margin="8dp"
+            android:padding="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/psychology"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/b8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonbackground"
+                    android:text="Book 8: The Psychology Of Money"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:padding="3dp"
+                    >
+                </androidx.appcompat.widget.AppCompatButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Author: Morgan Housel  \n\nPages: 253"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/book9"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:background="@drawable/book_box"
+            android:layout_margin="8dp"
+            android:padding="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/rework"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/b9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonbackground"
+                    android:text="Book 9: Rework"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:padding="3dp"
+                    >
+                </androidx.appcompat.widget.AppCompatButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Author: Jason Fried and David Heinemeier Hansson  \nPages: 201"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/book10"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:background="@drawable/book_box"
+            android:layout_margin="8dp"
+            android:padding="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/stop"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/b10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonbackground"
+                    android:text="Book 10: How To Stop Worrying And Start Living"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:padding="3dp"
+                    >
+                </androidx.appcompat.widget.AppCompatButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Author: Dale Carnegie  \n\nPages: 183"
+                    android:layout_margin="10dp"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
